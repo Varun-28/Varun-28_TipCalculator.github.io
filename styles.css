@@ -1,7 +1,7 @@
 /* styles.css */
 
 body {
-    background: #333 url('img/taisiia-shestopal--Q1G92-hQwg-unsplash.jpg') center center no-repeat;
+    background: #333 url('img/taisiia-shestopal--Q1G92-hQwg-unsplash.jpg') center;
     background-size: cover;
     color: #532827;
 }
@@ -10,6 +10,8 @@ body {
     width: 400px;
     margin: 40px auto 0;
     padding: 50px;
+    position: relative;
+    bottom: 20px;
     box-sizing: border-box;
     background: url('img/paper-pattern.jpg') top left repeat;
     box-shadow: 0 10px 15px -8px #000;
@@ -17,6 +19,13 @@ body {
     -moz-border-radius: 5px;
     border-radius: 5px;
     text-align: center;
+}
+
+@media (max-width: 500px){
+    #container{
+        width: 85%;
+        height: auto;
+    }
 }
 
 h1 {
